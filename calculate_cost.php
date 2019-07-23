@@ -1,4 +1,4 @@
-<?
+<?php
 
 define("UPLOAD_DIR", "files/");
 // define("STL_HEADER", "libthing_export");
@@ -47,5 +47,5 @@ if (!$err)
 
 ?>
 <pre>
-<? calculate_cost($target); ?>
+<?php calculate_cost($target); ?>
 </pre>
